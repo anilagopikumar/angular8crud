@@ -1,0 +1,20 @@
+.main {
+    border: 1px solid gray;
+    margin: 0;
+    position: relative;
+    padding: 10px;
+    background-color: beige;
+}
+.centerDiv {
+    text-align: center;
+    width: 50%;
+    border: 1px solid gray;
+    margin: auto;
+    position: relative;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,24 @@
+<div class="main"> 
+    <div class="centerDiv">
+    <div>
+      <table style="width: 100%">
+        <tr>
+          <th>Name</th>
+          <th>Roll</th>
+          <th>Phone</th>
+          <th>CRUD</th>
+        </tr>
+        <tr *ngFor="let getData of data; let i=index">
+          <td>{{getData.name}}</td>
+          <td>{{getData.roll}}</td>
+          <td>{{getData.phone}}</td>
+          <td>
+              <button (click)="update(i,getData)">UPDATE</button>
+              <button (click)="insert()">INSERT</button>
+              <button (click)="delete(i)">DELETE</button>
+        </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    </div>
